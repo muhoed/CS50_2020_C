@@ -41,7 +41,7 @@ Usage: ./plurality [CANDIDATES], where [CANDIDATES] is a list of candidates name
 Input:
  - positive integer number of voters.
  - top choice candidate for every voter - name of respective candidate.
- - 
+  
 Output: the winner's name.
 
 ## runoff.c
@@ -52,7 +52,7 @@ Usage: ./runoff [CANDIDATES], where [CANDIDATES] is a list of candidates names d
 Input:
 - positive integer number of voters.
 - ranks for all candidate by every voter - ranked names of candidate.
-- 
+ 
 Output: the winner's name.
 
 ## tideman.c
@@ -63,5 +63,5 @@ Usage: ./runoff [CANDIDATES], where [CANDIDATES] is a list of candidates names d
 Input:
 - positive integer number of voters.
 - ranks for all candidate by every voter - ranked names of candidate.
-- 
+ 
 Output: the winner's name.
