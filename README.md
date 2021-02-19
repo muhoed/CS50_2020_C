@@ -14,7 +14,7 @@ Output:
  - a grade calculated by [the Coleman-Liau index](https://en.wikipedia.org/wiki/Coleman%E2%80%93Liau_index) formula
  
 ## caesar.c
-the utility encrypts messages using [Caesar’s cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
+The utility encrypts messages using [Caesar’s cipher](https://en.wikipedia.org/wiki/Caesar_cipher).
 
 Usage: ./caesar [KEY], where [KEY] is a positive integer
 Input: a text up to 255 alphabetic sumbols [a-z][A-Z]. Case sensitive.
@@ -27,3 +27,29 @@ Usage: ./substitution [KEY], where [KEY] is a sequence of uniq 26 alphabetic sym
 Input: a text up to 255 symbols
 Output: a text encoded with the [KEY]
 
+## plurality.c
+The program emulates simple [plurality voting](https://en.wikipedia.org/wiki/Plurality_(voting)) system.
+
+Usage: ./plurality [CANDIDATES], where [CANDIDATES] is a list of candidates names divided by spaces.
+Input:
+ - positive integer number of voters
+ - top choice candidate for every voter - name of respective candidate
+Output: the winner's name
+
+## runoff.c
+The program implements [the instant runoff voting](https://en.wikipedia.org/wiki/Instant-runoff_voting) system.
+
+Usage: ./runoff [CANDIDATES], where [CANDIDATES] is a list of candidates names divided by spaces.
+Input:
+- positive integer number of voters
+- ranks for all candidate by every voter - ranked names of candidate.
+Output: the winner's name
+
+## tideman.c
+The program implements [the ranked pairs](https://en.wikipedia.org/wiki/Ranked_pairs) voting system.
+
+Usage: ./runoff [CANDIDATES], where [CANDIDATES] is a list of candidates names divided by spaces.
+Input:
+- positive integer number of voters
+- ranks for all candidate by every voter - ranked names of candidate.
+Output: the winner's name
